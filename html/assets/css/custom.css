@@ -1,0 +1,73 @@
+body{
+    
+    color: violet;
+}
+
+#titolo{
+    color: green;
+}
+/* tipografia */
+h1, h2, .myp{
+    color: brown !important;
+}
+/* +, ~, >, ' ' */
+
+#myp{
+    color:green;
+}
+
+/* [title]{
+    color: blueviolet;
+} */
+[target="_black"]{
+    color: yellow;
+}
+
+/* h2 + p{
+    color:green;
+} */
+
+/* h2 ~ p{
+    color: blueviolet;
+} */
+p > span{
+    margin-left: 16px; margin-right: 16px;
+}
+p span{
+    margin-left: 16px; margin-right: 16px;
+}
+li li{
+    color: green;
+}
+/* navigazione */
+a:link{
+    color: black;
+}
+a:hover{
+    color: yellowgreen;
+}
+a:visited{
+    color: red;
+}
+
+div:hover{
+    color: yellow;
+}
+li:nth-child(2n + 1){
+    border-bottom: 1px solid grey;
+}
+
+/* ul li:last-child{
+    border-bottom: 0;
+} */
+
+input[type='text']:focus, input[type='password']:focus, input[type='email']:focus{
+    background-color:green;
+}
+
+p::first-letter{
+    color: chocolate;
+}
+/*{
+    color: blue;
+} */
